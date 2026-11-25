@@ -1,0 +1,19 @@
+# данные не публикуются
+data/*
+!data/.gitkeep
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# артефакты моделей
+*.pkl
+*.joblib
+
+# системные
+.DS_Store
+Thumbs.db
